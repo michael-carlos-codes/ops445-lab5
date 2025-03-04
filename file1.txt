@@ -1,0 +1,8 @@
+f = open('file1.txt', 'w')
+f.write('Line 1\nLine 2 is a little longer\nLine 3 is too\n')
+f.close()
+
+f = open('file1.txt', 'a')
+f.write('This is the 4th line\n')
+f.write('Last line in file\n')
+f.close()
